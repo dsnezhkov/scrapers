@@ -5,9 +5,7 @@ require 'watir'
 
 $logger = Logger.new('dowagro.run.log')
 $results_file="dowagro.zoom.csv"
-#$company_url="http://www.zoominfo.com/pic/The-Dow-Chemical-Company/37031826"
-#$company_url="http://www.zoominfo.com/pic/Dow-Corning-Corporation/75387797"
-$company_url="http://www.zoominfo.com/pic/Dow-AgroSciences-LLC/37031827"
+$company_url="http://www.zoominfo.com/pic/**********/37031827"
 $records=Array.new
 page_start=1
 page_end=40
